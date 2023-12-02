@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body class="backgroundIMG">
+  <header class="container-fluid mb-5">
+    <section class="row text-center  mt-2">
+      <div class="col-3">
+        <div class="card border-white bg-secondary text-light">
+          <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+          <div class="card-body" onclick="healthPack('Stella Stallone')" id="Stella Stallone">
+            <h4 class="card-title">Stella Stallone</h4>
+            <p class="card-text stats"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-white bg-secondary text-light">
+          <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+          <div class="card-body" onclick="healthPack('Sugar')" id="Sugar">
+            <h4 class="card-title">Sugar</h4>
+            <p class="card-text stats"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-white bg-secondary text-light">
+          <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+          <div class="card-body" onclick="healthPack('Billy the Kid')" id="Billy the Kid">
+            <h4 class="card-title">Billy the Kid</h4>
+            <p class="card-text stats"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-white bg-secondary text-light">
+          <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+          <div class="card-body" onclick="healthPack('Indigo')" id="Indigo">
+            <h4 class="card-title">Indigo</h4>
+            <p class="card-text stats"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="container-fluid text-center mt-5">
+    <section class="row justify-content-center">
+      <div class="col-6">
+        <div class="card border-white bg-secondary text-light boss" onclick="attackBoss()">
+          <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+          <div class="card-body" id="Lyra">
+            <h4 class="card-title">Lyra</h4>
+            <p class="card-text stats"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="">
+    <div class="card border-white bg-secondary text-light">
+      <img class="card-img-top" src="holder.js/100px180/" alt="heroPortrait">
+      <div class="card-body">
+        <h4 class="card-title">Buy Health!!!</h4>
+        <p class="card-text">Healthpacks cost 20 Gold! Click on the hero you want to use your healthpack on! Good Luck
+          :D</p>
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
